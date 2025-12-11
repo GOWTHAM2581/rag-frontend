@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { auth } from "./firebase";
-import Login from "../pages/Login";
+import Login from "./pages/Login";
 import UploadPDF from "./pages/UploadPDF";
 import Chat from "./pages/Chat";
 
