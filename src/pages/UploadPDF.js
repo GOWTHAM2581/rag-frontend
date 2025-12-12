@@ -3,7 +3,7 @@ import { supabase } from "../supabase";
 import axios from "axios";
 import { auth } from "../firebase";
 
-const BACKEND_URL = "https://your-render-backend-url"; 
+const BACKEND_URL = "https://rag-backend-oufo.onrender.com"; 
 
 function UploadPDF({ onUploaded }) {
   const [file, setFile] = useState(null);
@@ -42,3 +42,4 @@ function UploadPDF({ onUploaded }) {
 }
 
 export default UploadPDF;
+
